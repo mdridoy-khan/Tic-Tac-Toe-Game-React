@@ -1,16 +1,65 @@
-# React + Vite
+🎮 Tic-Tac-Toe Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive Tic-Tac-Toe web application built using React.js and Tailwind CSS. This project demonstrates component-based architecture, state management, and responsive UI design while recreating the classic two-player strategy game.
 
-Currently, two official plugins are available:
+📌 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tic-Tac-Toe is a classic two-player game where players take turns marking spaces in a 3×3 grid with X or O. The player who successfully places three of their marks in a horizontal, vertical, or diagonal row wins the game.
 
-## React Compiler
+This project provides a clean and responsive interface where players can easily play the game in their browser.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🚀 Features
 
-## Expanding the ESLint configuration
+🎯 Interactive 3×3 game board
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👥 Two-player gameplay
+
+🧠 Automatic winner detection
+
+🔄 Game reset functionality
+
+📱 Responsive design for different screen sizes
+
+⚡ Fast and dynamic UI powered by React state management
+
+🎨 Modern UI styled with Tailwind CSS
+
+🛠️ Technologies Used
+
+React.js – Frontend JavaScript library for building UI components
+
+Tailwind CSS – Utility-first CSS framework for styling
+
+JavaScript (ES6+) – Application logic
+
+HTML5 – Structure of the application
+
+CSS3 – Additional styling support
+
+Follow these steps to run the project locally:
+
+1️⃣ Clone the repository
+git clone https://github.com/mdridoy-khan/Tic-Tac-Toe-Game-React.git
+2️⃣ Navigate to the project directory
+cd Tic-Tac-Toe-Game-React
+3️⃣ Install dependencies
+npm install
+4️⃣ Start the development server
+npm run dev
+
+The application will run at:
+
+http://localhost:5173
+🎮 How to Play
+
+The game starts with Player X.
+
+Players take turns clicking an empty square on the board.
+
+The first player to align three marks in a row (horizontal, vertical, or diagonal) wins.
+
+If all squares are filled without a winner, the game ends in a draw.
+
+📄 License
+
+This project is open-source and available under the MIT License.
